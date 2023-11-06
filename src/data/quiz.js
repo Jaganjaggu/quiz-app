@@ -5,6 +5,48 @@ export const quiz = {
     perQuestionScore: 5,
     questions: [
         {
+            question: 'Which of the following is a valid way to comment out a single line in JavaScript?',
+            choices: ['// This is a comment', '/* This is a comment */', '-- This is a comment', '<!-- This is a comment -->'],
+            type: 'MCQs',
+            correctAnswer: '// This is a comment',
+        },
+        {
+            question: 'What does the JavaScript `typeof` operator return for an array?',
+            choices: ['Array', 'object', 'Array and object', 'String'],
+            type: 'MCQs',
+            correctAnswer: 'object',
+        },
+        {
+            question: 'Which method is used to remove the last element from an array in JavaScript?',
+            choices: ['pop()', 'remove()', 'delete()', 'splice()'],
+            type: 'MCQs',
+            correctAnswer: 'pop()',
+        },
+        {
+            question: 'What is the purpose of the JavaScript `typeof` operator?',
+            choices: ['To check if a variable is defined', 'To return the data type of a value', 'To perform mathematical operations', 'To define a new variable'],
+            type: 'MCQs',
+            correctAnswer: 'To return the data type of a value',
+        },
+        {
+            question: 'Which of the following is not a JavaScript loop statement?',
+            choices: ['for', 'if', 'while', 'do...while'],
+            type: 'MCQs',
+            correctAnswer: 'if',
+        },
+        {
+            question: 'In JavaScript, what will be the result of the expression `3 + "3"`?',
+            choices: ['6', '33', 'NaN', 'Error'],
+            type: 'MCQs',
+            correctAnswer: '33',
+        },
+        {
+            question: 'Which JavaScript method is used to join the elements of an array into a string?',
+            choices: ['join()', 'concat()', 'merge()', 'combine()'],
+            type: 'MCQs',
+            correctAnswer: 'join()',
+        },
+        {
             question: 'Which function is used to serialize an object into a JSON string in Javascript?',
             choices: ['stringify()', 'parse()', 'convert()', 'None of the above'],
             type: 'MCQs',
@@ -23,12 +65,7 @@ export const quiz = {
             type: 'MCQs',
             correctAnswer: 'All of the above',
         },
-        {
-            question: 'How can a datatype be declared to be a constant type?',
-            choices: ['const', 'var', 'let', 'constant'],
-            type: 'MCQs',
-            correctAnswer: 'const',
-        }
+
     ]
 }
 
