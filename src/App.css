@@ -14,6 +14,7 @@ li {
   background: rgb(44, 45, 75);
   background: linear-gradient(22deg, rgba(44, 45, 75, 1) 0%, rgba(0, 77, 97, 1) 42%, rgba(0, 139, 162, 1) 100%);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }

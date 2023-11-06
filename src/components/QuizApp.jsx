@@ -62,8 +62,9 @@ function QuizApp() {
     return (
         <>
             <div className='main'>
-                <div className='quiz-container'>
+            <h1 style={{textAlign:'center',color:'white',marginBottom:'20px'}}>Quiz App</h1>
 
+                <div className='quiz-container'>
                     {!showResult ? (
                         <div className='quiz-section'>
                             <h1>{activeQuestion + 1}<span className='countslash'>/{quiz.questions.length}</span></h1>
